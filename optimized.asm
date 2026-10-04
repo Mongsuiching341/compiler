@@ -1,0 +1,6 @@
+MOV AX, 10
+MOV x, AX
+MOV AX, 5
+MOV y, AX
+ADD AX, x
+MOV y, AX

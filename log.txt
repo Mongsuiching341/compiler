@@ -1,0 +1,44 @@
+	ScopeTable# 1 created
+Line 1: Token <KEYWORD> Lexeme int
+Line 1: Token <ID> Lexeme main
+Line 1: Token <LPAREN> Lexeme (
+Line 1: Token <RPAREN> Lexeme )
+Line 2: Token <LBRACE> Lexeme {
+	ScopeTable# 1.1 created
+Line 3: Token <KEYWORD> Lexeme int
+Line 3: Token <ID> Lexeme x
+Line 3: Token <COMMA> Lexeme ,
+Line 3: Token <ID> Lexeme y
+Line 3: Token <SEMICOLON> Lexeme ;
+	Inserted  at position <11, 1> of ScopeTable# 1.1
+	Inserted  at position <1, 1> of ScopeTable# 1.1
+Line 5: Token <ID> Lexeme x
+	'x' found at position <11, 1> of ScopeTable# 1.1
+Line 5: Token <ASSIGNOP> Lexeme =
+Line 5: Token <CONST_INT> Lexeme 10
+Line 5: Token <SEMICOLON> Lexeme ;
+	'x' found at position <11, 1> of ScopeTable# 1.1
+Line 6: Token <ID> Lexeme y
+	'y' found at position <1, 1> of ScopeTable# 1.1
+Line 6: Token <ASSIGNOP> Lexeme =
+Line 6: Token <CONST_INT> Lexeme 5
+Line 6: Token <SEMICOLON> Lexeme ;
+	'y' found at position <1, 1> of ScopeTable# 1.1
+Line 8: Token <ID> Lexeme y
+	'y' found at position <1, 1> of ScopeTable# 1.1
+Line 8: Token <ASSIGNOP> Lexeme =
+Line 8: Token <ID> Lexeme y
+	'y' found at position <1, 1> of ScopeTable# 1.1
+Line 8: Token <ADDOP> Lexeme +
+Line 8: Token <ID> Lexeme x
+	'x' found at position <11, 1> of ScopeTable# 1.1
+Line 8: Token <SEMICOLON> Lexeme ;
+	'y' found at position <1, 1> of ScopeTable# 1.1
+	'y' found at position <1, 1> of ScopeTable# 1.1
+	'x' found at position <11, 1> of ScopeTable# 1.1
+Line 10: Token <KEYWORD> Lexeme return
+Line 10: Token <CONST_INT> Lexeme 0
+Line 10: Token <SEMICOLON> Lexeme ;
+Line 11: Token <RBRACE> Lexeme }
+	ScopeTable# 1.1 deleted
+	ScopeTable# 1 deleted

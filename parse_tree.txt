@@ -1,0 +1,71 @@
+Parse Tree:
+program
+  unit
+    func_definition
+      type_specifier
+        int
+      ID: main
+      (
+      parameter_list
+      )
+      compound_statement
+        {
+        statements
+          statements
+            statements
+              statements
+                statements
+                  statements
+                  statement
+                    var_declaration
+                      type_specifier
+                        int
+                      declaration_list
+                        declaration_list
+                          ID: x
+                        ,
+                        ID: y
+                      ;
+                statement
+                  expression_statement
+                    expression
+                      variable
+                        ID: x
+                      ASSIGNOP: =
+                      expression
+                        constant
+                          CONST_INT: 10
+                    ;
+              statement
+                expression_statement
+                  expression
+                    variable
+                      ID: y
+                    ASSIGNOP: =
+                    expression
+                      constant
+                        CONST_INT: 5
+                  ;
+            statement
+              expression_statement
+                expression
+                  variable
+                    ID: y
+                  ASSIGNOP: =
+                  expression
+                    expression
+                      variable
+                        ID: y
+                    ADDOP: +
+                    expression
+                      variable
+                        ID: x
+                ;
+          statement
+            return_statement
+              return
+              expression
+                constant
+                  CONST_INT: 0
+              ;
+        }
